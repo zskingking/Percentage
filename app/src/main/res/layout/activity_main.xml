@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.percentage.MainActivity">
+
+    <com.example.administrator.percentage.custom.PercentageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/per_electric"
+        app:lineWidth="2dp"
+        app:lineHeight="12dp"
+        app:textSize="35dp"
+        app:backLineColor="#ababab"
+        app:lineColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/per_electric"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:text="剩余电量"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/per_electric"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:text="电量"
+        android:id="@+id/btn_per"
+        />
+
+</RelativeLayout>
