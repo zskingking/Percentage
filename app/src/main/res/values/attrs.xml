@@ -9,4 +9,14 @@
         <attr name="lineColor" format="color"/>
         <attr name="textColor" format="color"/>
     </declare-styleable>
+
+    <declare-styleable name="PerElectric">
+        <attr name="perineHeight" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="frameWidth" format="dimension"/>
+        <attr name="padding" format="dimension"/>
+        <attr name="margin" format="dimension"/>
+        <attr name="normalColor" format="color"/>
+        <attr name="lowColor" format="color"/>
+    </declare-styleable>
 </resources>
