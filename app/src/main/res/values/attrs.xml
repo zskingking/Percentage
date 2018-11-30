@@ -11,7 +11,7 @@
     </declare-styleable>
 
     <declare-styleable name="PerElectric">
-        <attr name="perineHeight" format="dimension"/>
+        <attr name="perLineHeight" format="dimension"/>
         <attr name="radius" format="dimension"/>
         <attr name="frameWidth" format="dimension"/>
         <attr name="padding" format="dimension"/>
